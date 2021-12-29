@@ -19,5 +19,6 @@ import iitkgp_web.views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('welcome', iitkgp_web.views.welcome)
+    path('welcome', iitkgp_web.views.welcome),
+    path('index', iitkgp_web.views.index)
 ]
